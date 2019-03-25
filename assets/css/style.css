@@ -22,6 +22,10 @@
     font-family: witbold;
     src: url('../font/whatever_it_takes/whatever\ it\ takes\ bold.ttf');
 }
+@font-face {
+    font-family: doctorpunk;
+    src: url('../font/doctor\ punk.otf');
+}
 *{
     margin:0;
     padding:0;
@@ -46,4 +50,75 @@ body{
 }
 .pos-absolute{
     position: absolute;
+}
+#sec-1{
+    padding-bottom:5%!important;
+}
+.cover-sec-1{
+    margin-bottom:20px;
+    height:850px;
+}
+.cover-title h1{
+    font-family: doctorpunk;
+    font-size:17vh;
+    line-height: 10vh;
+    position: absolute;
+    z-index: 1;
+}
+.louder{
+    margin-top:15%;
+    
+}
+.cover-sec-1 .himg{
+    width:100%!important;
+    position: absolute;
+    margin-top:12%;
+}
+.logo-hai{
+    position: absolute;
+    width:100px;
+    z-index: 2;
+    top:70%;
+    left:45%;
+}
+.font-red{
+    color:#a61e27!important;
+}
+.img-100{
+    width:100%;
+}
+.caption{
+    margin:5% 0;
+    font-family: witbold;
+    font-size:5vh;
+    line-height: 5vh;
+}
+.quotes{
+    font-family: witbold;
+    font-size:5vh;
+}
+.paper{
+    height:115vh;
+}
+.comment{
+    right: 12%;
+    margin-top: 14%;
+    width: 47%;
+    overflow: auto;
+    height: 55vh;
+}
+.titlebro{
+    font-size:15vh;
+    font-family: doctorpunk;
+}
+.poin-mantap-caption{
+    margin:5% 0;
+    font-family: shonenpunk;
+    font-size:3vh;
+    line-height: 3.25vh;
+}
+.captionbro{
+    font-size:5vh;
+    line-height: 5.25vh;
+    font-family: shonenpunk;
 }
