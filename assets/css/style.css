@@ -122,3 +122,8 @@ body{
     line-height: 5.25vh;
     font-family: shonenpunk;
 }
+#sec-2{
+    background:url('../images/2/2_backgroundimage.png') no-repeat;
+    background-size:100%;
+    height:170vh;
+}
