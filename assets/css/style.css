@@ -135,9 +135,35 @@ body{
 }
 
 .carousel{
-    height:800px!important;
+    height:700px!important;
 }
 .carousel-item{
-    width:700px!important;
+    width:600px!important;
     height:100%!important;
+}
+#sec-4{
+    background: #231f20;
+}
+#footer{
+    background: #f8f8f8;
+    padding-bottom:2%;
+}
+.bth{
+    font-family: doctorpunk;
+    color:#231f20;
+    font-size:7vh;
+}
+.logo-footer{
+    width:75px;
+}
+.lbl-foot{
+    font-family: shonenpunkbold;
+    font-size: 3vh;
+}
+.text-foot{
+    font-family: wit;
+    font-size: 3vh
+}
+.footer-body{
+    margin-top:-5%;
 }
