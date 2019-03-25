@@ -51,38 +51,130 @@ body{
 .pos-absolute{
     position: absolute;
 }
-#sec-1{
-    padding-bottom:5%!important;
+
+@media only screen and (min-width: 481px) {
+    #sec-1{
+        padding-bottom:5%!important;
+    }
+    .cover-sec-1{
+        margin-bottom:20px;
+        height:820px;
+    }
+    .cover-title h1{
+        font-family: doctorpunk;
+        font-size:14vh;
+        line-height: 10vh;
+        position: absolute;
+        z-index: 1;
+    }
+    .louder{
+        margin-top:15%;
+        
+    }
+    .cover-sec-1 .himg{
+        width:100%!important;
+        position: absolute;
+        margin-top:12%;
+    }
+    .logo-hai{
+        position: absolute;
+        width:100px;
+        z-index: 2;
+        top:75%;
+        left:45%;
+    }
+    .paper{
+        /* height:115vh; */
+        margin-bottom: 80%;
+    }
+    .quotes{
+        font-family: witbold;
+        font-size:5vh;
+    }
+    .comment{
+        right: 12%;
+        margin-top: 14%;
+        width: 47%;
+        overflow: auto;
+        height: 55vh;
+    }
+    .titlebro{
+        font-size:12vh;
+        font-family: doctorpunk;
+    }
+    .poin-mantap-caption{
+        margin:5% 0;
+        font-family: shonenpunk;
+        font-size:3vh;
+        line-height: 3.25vh;
+    }
+    .captionbro{
+        font-size:4vh;
+        line-height: 4.25vh;
+        font-family: shonenpunk;
+    }
 }
-.cover-sec-1{
-    margin-bottom:20px;
-    height:850px;
-}
-.cover-title h1{
-    font-family: doctorpunk;
-    font-size:17vh;
-    line-height: 10vh;
-    position: absolute;
-    z-index: 1;
-}
-.louder{
-    margin-top:15%;
-    
-}
-.cover-sec-1 .himg{
-    width:100%!important;
-    position: absolute;
-    margin-top:12%;
-}
-.logo-hai{
-    position: absolute;
-    width:100px;
-    z-index: 2;
-    top:70%;
-    left:45%;
+@media only screen and (max-width: 480px) {
+    .cover-sec-1{
+        margin-bottom:20px;
+        height:320px;
+    }
+    .cover-title h1{
+        font-family: doctorpunk;
+        font-size:6vh;
+        line-height: 2vh;
+        z-index: 1;
+        text-align: center;
+    }
+    .louder{
+        
+    }
+    .cover-sec-1 .himg{
+        width:100%!important;
+    }
+    .logo-hai{
+        position: absolute;
+        width:20%;
+        z-index: 2;
+        top:75%;
+        left:40%;
+    }
+    .paper{
+        /* height:115vh; */
+        margin-bottom: 160%;
+    }
+    .quotes{
+        font-family: witbold;
+        font-size:5vh;
+    }
+    .comment{    
+        left: 13%;
+        margin-top: 44%;
+        width: 76%;
+        overflow: auto;
+        height: 43vh;
+    }
+    .titlebro{
+        font-size:9vh;
+        font-family: doctorpunk;
+    }
+    .poin-mantap-caption{
+        margin:5% 0;
+        font-family: shonenpunk;
+        font-size:3vh;
+        line-height: 3.25vh;
+    }
+    .captionbro{
+        font-size:2vh;
+        line-height: 2.25vh;
+        font-family: shonenpunk;
+    }
 }
 .font-red{
     color:#a61e27!important;
+}
+.img-80{
+    width:80%;
 }
 .img-100{
     width:100%;
@@ -93,77 +185,103 @@ body{
     font-size:5vh;
     line-height: 5vh;
 }
-.quotes{
-    font-family: witbold;
-    font-size:5vh;
+@media only screen and (min-width: 481px) {
+    #sec-2{
+        background:url('../images/2/2_backgroundimage.png') no-repeat;
+        background-size:100%;
+        height:1200px;
+        padding-bottom:10%;
+    }
+    .box{
+        width:80%;
+        top:25%;
+        left:10%;
+    }
 }
-.paper{
-    height:115vh;
+@media only screen and (max-width: 480px) {
+    #sec-2{
+        background:url('../images/extra/2_backgroundimageversimobile.png') no-repeat;
+        background-size:100%;
+        height:1100px;
+        padding-bottom:10%;
+    }
+    .box{
+        width:80%;
+        top:5%;
+        left:10%;
+    }
 }
-.comment{
-    right: 12%;
-    margin-top: 14%;
-    width: 47%;
-    overflow: auto;
-    height: 55vh;
+@media only screen and (min-width: 481px) {
+    .carousel{
+        height:700px!important;
+    }
+    .carousel-item{
+        width:600px!important;
+        height:100%!important;
+    }
 }
-.titlebro{
-    font-size:15vh;
-    font-family: doctorpunk;
+@media only screen and (max-width: 480px) {
+    .carousel{
+        height:400px!important;
+    }
+    .carousel-item{
+        width:310px!important;
+        height:100%!important;
+    }
 }
-.poin-mantap-caption{
-    margin:5% 0;
-    font-family: shonenpunk;
-    font-size:3vh;
-    line-height: 3.25vh;
-}
-.captionbro{
-    font-size:5vh;
-    line-height: 5.25vh;
-    font-family: shonenpunk;
-}
-#sec-2{
-    background:url('../images/2/2_backgroundimage.png') no-repeat;
-    background-size:100%;
-    height:80em;
-    padding-bottom:10%;
-}
-.box{
-    width:80%;
-    top:25%;
-    left:10%;
-}
-
-.carousel{
-    height:700px!important;
-}
-.carousel-item{
-    width:600px!important;
-    height:100%!important;
+.poin-mantap{
+    margin-bottom:10%!important;
 }
 #sec-4{
     background: #231f20;
 }
-#footer{
-    background: #f8f8f8;
-    padding-bottom:2%;
+@media only screen and (min-width: 481px) {
+    #footer{
+        background: #f8f8f8;
+        padding-bottom:2%;
+    }
+    .bth{
+        font-family: doctorpunk;
+        color:#231f20;
+        font-size:7vh;
+    }
+    .logo-footer{
+        width:75px;
+    }
+    .lbl-foot{
+        font-family: shonenpunkbold;
+        font-size: 3vh;
+    }
+    .text-foot{
+        font-family: wit;
+        font-size: 3vh
+    }
+    .footer-body{
+        margin-top:-5%;
+    }
 }
-.bth{
-    font-family: doctorpunk;
-    color:#231f20;
-    font-size:7vh;
-}
-.logo-footer{
-    width:75px;
-}
-.lbl-foot{
-    font-family: shonenpunkbold;
-    font-size: 3vh;
-}
-.text-foot{
-    font-family: wit;
-    font-size: 3vh
-}
-.footer-body{
-    margin-top:-5%;
+@media only screen and (max-width: 480px) {
+    #footer{
+        background: #f8f8f8;
+        padding-bottom:2%;
+    }
+    .bth{
+        font-family: doctorpunk;
+        color:#231f20;
+        font-size:6vh;
+    }
+    .logo-footer{
+        width:75px;
+    }
+    .lbl-foot{
+        font-family: shonenpunkbold;
+        font-size: 3vh;
+    }
+    .text-foot{
+        font-family: wit;
+        font-size: 3vh
+    }
+    .footer-body{
+        margin-top:-5%;
+    }
 }
