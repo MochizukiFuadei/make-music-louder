@@ -323,3 +323,61 @@ body{
         margin-bottom:20px;
     }
 }
+.modal-cover{
+    position: relative;
+    text-align: center;
+}
+.modal-text{
+    position: relative;
+}
+@media only screen and (min-width: 481px) {
+    .doodle1{
+        position: absolute;
+        left:5%;
+        top:10%;
+        width:5%;
+    }
+    .doodle2{
+        position: absolute;
+        right:5%;
+        top:20%;
+        width:5%;
+    }
+    .doodle3{
+        position: absolute;
+        left:5%;
+        top:30%;
+        width:5%;
+    }
+    .doodle4{
+        position: absolute;
+        right:5%;
+        top:40%;
+        width:5%;
+    }
+    .doodle5{
+        position: absolute;
+        left:5%;
+        top:50%;
+        width:5%;
+    }
+    .doodle6{
+        position: absolute;
+        right:5%;
+        top:60%;
+        width:5%;
+    }
+    .logo-hai-popup{
+        width:7%;
+        margin-top:-3%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .doodle1,.doodle2,.doodle3,.doodle4,.doodle5,.doodle6{
+        display: none!important;
+    }
+    .logo-hai-popup{
+        width:15%;
+        margin-top:-8%;
+    }
+}
