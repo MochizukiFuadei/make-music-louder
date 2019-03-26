@@ -26,6 +26,10 @@
     font-family: doctorpunk;
     src: url('../font/doctor\ punk.otf');
 }
+@font-face {
+    font-family: comics;
+    src: url('../font/comic-sans-ms-2/COMIC.TTF');
+}
 *{
     margin:0;
     padding:0;
@@ -41,7 +45,7 @@ p{
 body{
     margin:0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: comics;
     font-size: 18px;
     position: relative;
 }
