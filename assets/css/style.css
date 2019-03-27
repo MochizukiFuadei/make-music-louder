@@ -115,9 +115,9 @@ body{
     }
     .poin-mantap-caption{
         margin:5% 0;
-        font-family: shonenpunk;
-        font-size:2vh;
-        line-height: 2.25vh;
+        font-family: witbold;
+        font-size:4vh;
+        line-height: 4.25vh;
     }
     .captionbro{
         font-size:4vh;
@@ -168,7 +168,7 @@ body{
     }
     .comment{    
         left: 13%;
-        margin-top: 44%;
+        margin-top: 15%;
         width: 76%;
         overflow: auto;
         height: 43vh;
@@ -179,15 +179,19 @@ body{
     }
     .poin-mantap-caption{
         margin:5% 0;
-        font-family: shonenpunk;
-        font-size:2vh;
-        line-height: 2.25vh;
+        font-family: witbold;
+        font-size:4vh;
+        line-height: 4.25vh;
     }
     .captionbro{
         font-size:2vh;
         line-height: 2.25vh;
         font-family: shonenpunk;
     }
+}
+.masalah{
+    font-family: doctorpunk;
+    font-size:4vh;
 }
 .font-red{
     color:#a61e27!important;
